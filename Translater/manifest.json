@@ -1,0 +1,15 @@
+{
+  "name": "Translate",
+  "version": "1.0",
+  "description": "When right click on word selected, add menu in popup, support open a baidu translate",
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "scripts": ["translate.js"]
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "manifest_version": 2
+}
