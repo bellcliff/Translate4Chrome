@@ -9,7 +9,7 @@ function genericOnClick(info, tab) {
 	console.log("tab: " + JSON.stringify(tab));
 	if(info.selectionText)
 	chrome.tabs.create({
-		'url' : 'http://dict.baidu.com/s?wd='+info.selectionText
+		'url' : 'http://translate.google.com/#en/zh-CN/'+info.selectionText
 	}, function(tab) {
 		// Tab opened.
 	});
